@@ -12,23 +12,48 @@
 </head>
 <body>
     <header>
-        <h1>Mis Osos</h1>
+        <div class="contenedor">
+                <h1 class="icon-dog">Mis Perris</h1>
+                <link rel="icon" href="images/dog-icono.png">
+                <input type="checkbox" id="menu-bar">
+                <label class="icon-menu" for="menu-bar"></label>
+                <nav class="menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="#">Registro</a>
+                    <a href="login.html">Inicio Sesión</a>
+                    <a href="#">Galeria</a>
+                </nav>
+        </div>  
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="info.html">Información</a></li>
-            <li><a href="gallery.html">Galería</a></li>            
-        </ul>
-    </nav>
-    <main>
-        <h2>Información</h2>
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea reiciendis unde, quis excepturi maxime non dignissimos temporibus harum aliquam quo distinctio eveniet sit natus in sint iure fugiat doloremque debitis.
-        </p>
+    
+    <main class="container">
+        <div class="container">
+            <h2 class="form__top">Formulario<span>Registro</span></h2>
+            <form method="post" class="form__reg" >
+                <input id="txtNombre" class="input" type="text" maxlength="15" minlength="15" placeholder="&#128100;  Nombre" required>
+                <p>Requerido. 150 carácteres como máximo. Únicamente letras, dígitos y @/./+/-/_ </p>
+                <input class="input" type="password" maxlength="8" minlength="8" placeholder="&#128100;  Contraseña" required>
+                <p>Su contraseña no puede asemejarse tanto a su otra información personal.
+                    Su contraseña debe contener al menos 8 caracteres.
+                    Su contraseña no puede ser una clave utilizada comunmente.</p>
+                <input class="input" type="password" maxlength="8" minlength="8" placeholder="&#128100;  Contraseña" required>
+                <p>Para verificar, introduzca la misma contraseña anterior.</p>
+              <div class="btn__form">
+                <button type="submit" class="btn__submit">Regístrate</button>
+              </div>
+            </form>
+        </div>
     </main>
-    <footer>
-        &copy; Todos los derechos reservados
+    <footer class="footer">
+            <div class="social">
+                <a href="" class="icon-facebook"></a>
+                <a href="" class="icon-twitter"></a>
+                <a href="" class="icon-gplus"></a>
+            </div>
+            <p class="copy">&copy; Mis perris 2018 - Todos los derechos reservados. </p>
     </footer>
+
+    <script src="scripts/validacion.js"></script>
+
 </body>
 </html>
