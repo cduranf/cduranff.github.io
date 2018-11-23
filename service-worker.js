@@ -1,28 +1,20 @@
-var cacheName = "perris-v10";
+var cacheName = "perris-v12";
 var filesToCache = [
     "/",
     "/index.html",
     "/registro.html",
     "/login.html",
     "/scripts/app.js",
-    "/styles/estil.css",
-    "/styles/estilos.css",
-    "/styles/font-awesome.css",
-    "/styles/registro.css",
-    "/styles/fontello.css",
-    "/images/1.jpg",
-    "/images/2.jpg",
-    "/images/3.jpg",
-    "/images/4.jpg",
-    "/images/dog-icono.png",
-    "/images/img1.jpeg",
-    "/images/img2.jpg",
-    "/images/img3.jpg",
-    "/images/img4.jpg",
-    "/images/img5.jpg",
-    "/images/img6.jpg",
-    "/images/img7.jng"
-
+    "/styles/main.css",
+    "/images/bear1.jpg",
+    "/images/bear2.jpg",
+    "/images/bear3.jpg",
+    "/images/bear4.jpg",
+    "/images/bear5.jpeg",
+    "/images/bear6.jpg",
+    "/images/bear7.jpg",
+    "/images/bear8.jpg",
+    "/images/bear9.jpg"
 ];
 
 self.addEventListener( 'install', function( e ) {
