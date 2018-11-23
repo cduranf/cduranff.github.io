@@ -2,7 +2,7 @@ var cacheName = "perris-v2";
 var filesToCache = [
     "/",
     "/index.html",
-    "/info.html",
+    "/registro.html",
     "/gallery.html",
     "/scripts/app.js",
     "/styles/main.css",
