@@ -1,0 +1,33 @@
+.container {
+
+    max-width: 460px;
+    height: auto;
+    background-color: #EFEFEF;
+    margin: 5% auto;
+    margin-top: 5%;
+    padding-bottom: 1rem;
+    margin-top: 100px;
+
+}
+
+.form__top {
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0 1rem;
+	border-top: solid .4rem #F39B53;
+	margin-bottom: 1rem;
+}
+
+.form__top h2 {
+	font-weight: bold;
+	color: #CAC8C8;
+	font-size: 18px;
+}
+
+h2 span {
+	color: #F39B53;
+}
+
+hr {
+    background-color: red;
+}
