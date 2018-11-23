@@ -1,9 +1,9 @@
-var cacheName = "perris-v3";
+var cacheName = "perris-v4";
 var filesToCache = [
     "/",
     "/index.html",
     "/registro.html",
-    "/gallery.html",
+    "/login.html",
     "/scripts/app.js",
     "/styles/main.css",
     "/images/bear1.jpg",
