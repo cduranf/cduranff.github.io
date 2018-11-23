@@ -1,4 +1,4 @@
-var cacheName = "perris-v16";
+var cacheName = "perris-v17";
 var filesToCache = [
     "/",
     "/index.html",
@@ -20,7 +20,7 @@ var filesToCache = [
     "/images/img4.jpg",
     "/images/img5.jpg",
     "/images/img6.jpg",
-    "/images/img7.jng"
+    "/images/img7.png"
 ];
 
 self.addEventListener( 'install', function( e ) {
