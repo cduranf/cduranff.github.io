@@ -1,4 +1,4 @@
-var cacheName = "perris-v19";
+var cacheName = "perris-v20";
 var filesToCache = [
     "/",
     "/index.html",
@@ -10,6 +10,12 @@ var filesToCache = [
     "/styles/estilos.css",
     "/styles/font-awesome.css",
     "/styles/registro.css",
+    "/fonts/fontawesome-webfont.woff2",
+    "/fonts/fontawesome-webfont.woff",
+    "/fonts/fontawesome-webfont.ttf",
+    "/fonts/fontawesome-webfont.svg",
+    "/fonts/fontawesome-webfont.eot",
+    "/fonts/FontAwesome.otf",
     "/images/1.jpg",
     "/images/2.jpg",
     "/images/3.jpg",
